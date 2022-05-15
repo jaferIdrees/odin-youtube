@@ -10,11 +10,12 @@ body {
   margin: 02px;
   
   
-  background-color: blue;
+  /*background-color: blue;*/
 }
 .navbar{
   width: 100%;
   height: 20vh;
+  background-color: #52DE44;
 }
 .mainsection{
   width: 100%;
@@ -31,4 +32,16 @@ div {
 
 h1, h2 {
   text-align: center;
+  color: red;
+}
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.sidebar  div{
+  border: 2px solid green;
+  /*width: 100%;
+  height: 5%;*/
+  
 }
