@@ -1,0 +1,34 @@
+body {
+  margin: 2px;
+  display: flex;
+  
+}
+.mainbar {
+  flex:3;
+}
+.sect {
+  margin: 02px;
+  
+  
+  background-color: blue;
+}
+.navbar{
+  width: 100%;
+  height: 20vh;
+}
+.mainsection{
+  width: 100%;
+  height: 80vh;
+}
+.videoFrame{
+  width: 100%;
+  height: 100%;
+}
+div {
+  border: 2px solid green;
+  flex: 1;
+}
+
+h1, h2 {
+  text-align: center;
+}
